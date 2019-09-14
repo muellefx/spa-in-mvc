@@ -30,5 +30,10 @@ namespace spa_in_mvc.Controllers
         {
             return View();
         }
+
+        public IActionResult Vue()
+        {
+            return View();
+        }
     }
 }
